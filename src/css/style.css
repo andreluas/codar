@@ -5,9 +5,61 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+  text-decoration: none;
   font-family: "Roboto", sans-serif;
 }
 
-/* COLORS */
+nav .logo h1 {
+  color: #D6000D;
+}
+nav .logo span {
+  color: #000000;
+}
+nav .nav-links a {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+}
+nav .nav-links .nav-login {
+  color: white;
+}
+
+main .main-first p {
+  color: #000000;
+  font-weight: 700;
+}
+main .main-first h1 {
+  color: #D6000D;
+  font-weight: 700;
+  font-size: 45px;
+}
+main .main-first .btn-main {
+  color: white;
+  border: none;
+  background-color: #D6000D;
+  font-size: 18px;
+  padding: 6px;
+  width: 250px;
+  border-radius: 8px;
+}
+
+.section-first .section-first-itens i {
+  color: white;
+  width: 25px;
+  height: 25px;
+  background-color: #D6000D;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 25px;
+}
+.section-first .section-first-itens li {
+  color: #000000;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+img {
+  width: 200px;
+}
 
 /*# sourceMappingURL=style.css.map */
