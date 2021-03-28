@@ -8,6 +8,11 @@
     font-family: 'Roboto', sans-serif;
 } 
 
+img {
+    display: block;
+    width: 500px;
+}
+
 $black: #000000;
 $red: #D6000D;
 
@@ -171,8 +176,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 20%;
-    height: 40vh;
+    margin: 0 20% 10% 20%;
+    height: 20vh;
 
     .content-description {
         background-color: rgba(184, 184, 184, 0.336);
@@ -220,29 +225,51 @@ main {
 
 footer {
     background-color: $black;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    h1, p {
+        margin-bottom: 8%;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    i {
+        margin: 0 3%;
+        font-size: 30px;
+        cursor: pointer;
+    }
 
     .footer-code {
         color: white;
+        
+        h1 {
+            font-size: 50px;
+        }
     }
 
     .footer-about {
-        @extend .footer-code;
+        color: white;
+
+        h1 {
+            font: 15px;
+            font-weight: 500;
+        }
     }
 
     .footer-contact {
-        @extend .footer-code;
+        @extend .footer-about;
     }
 
     .footer-socialmedia {
-        @extend .footer-code;
+        @extend .footer-about;
 
         .media {
             color: $red;
         }
     }
-}
-
-img {
-    display: block;
-    width: 500px;
 }

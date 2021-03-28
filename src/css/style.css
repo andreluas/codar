@@ -8,6 +8,11 @@
   font-family: "Roboto", sans-serif;
 }
 
+img {
+  display: block;
+  width: 500px;
+}
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -138,8 +143,8 @@ main .main-div .main-first .btn-main {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 20%;
-  height: 40vh;
+  margin: 0 20% 10% 20%;
+  height: 20vh;
 }
 .section-description .content-description {
   background-color: rgba(184, 184, 184, 0.336);
@@ -180,17 +185,37 @@ main .main-div .main-first .btn-main {
 
 footer {
   background-color: #000000;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-footer .footer-code, footer .footer-socialmedia, footer .footer-contact, footer .footer-about {
+footer h1, footer p {
+  margin-bottom: 8%;
+}
+footer p {
+  font-size: 18px;
+}
+footer i {
+  margin: 0 3%;
+  font-size: 30px;
+  cursor: pointer;
+}
+footer .footer-code {
   color: white;
+}
+footer .footer-code h1 {
+  font-size: 50px;
+}
+footer .footer-about, footer .footer-socialmedia, footer .footer-contact {
+  color: white;
+}
+footer .footer-about h1, footer .footer-socialmedia h1, footer .footer-contact h1 {
+  font: 15px;
+  font-weight: 500;
 }
 footer .footer-socialmedia .media {
   color: #D6000D;
-}
-
-img {
-  display: block;
-  width: 500px;
 }
 
 /*# sourceMappingURL=style.css.map */
