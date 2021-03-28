@@ -32,6 +32,10 @@ nav {
 
         .nav-login {
             color: white;
+            background-color: $red;
+            padding: 5px;
+            border-radius: 8px;
+            width: 100px;
         }
     }
 }
@@ -77,6 +81,64 @@ main {
             color: $black;
             font-weight: 400;
             font-size: 20px;
+        }
+    }
+}
+
+.section-contact {
+    .cel {
+        input {
+            border: none;
+            background-color: rgba(128, 128, 128, 0.336);
+            width: 100px;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        .btn-contact {
+            border: none;
+            background-color: $red;
+            color: white;
+            padding: 10px;
+            border-radius: 8px;
+        }
+    }
+}
+
+.section-description {
+    .content-description {
+        background-color: rgba(128, 128, 128, 0.336);
+        border-radius: 8px;
+    }
+
+    .description-img {
+        height: 50px;
+        width: 50px;
+        background-color: $red;
+        border-radius: 50%;
+    }
+}
+
+footer {
+    background-color: $black;
+
+    .footer-code {
+        color: white;
+    }
+
+    .footer-about {
+        @extend .footer-code;
+    }
+
+    .footer-contact {
+        @extend .footer-code;
+    }
+
+    .footer-socialmedia {
+        @extend .footer-code;
+
+        .media {
+            color: $red;
         }
     }
 }

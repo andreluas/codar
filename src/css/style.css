@@ -1,4 +1,3 @@
-/* RESET */
 * {
   margin: 0;
   padding: 0;
@@ -22,6 +21,10 @@ nav .nav-links a {
 }
 nav .nav-links .nav-login {
   color: white;
+  background-color: #D6000D;
+  padding: 5px;
+  border-radius: 8px;
+  width: 100px;
 }
 
 main .main-first p {
@@ -56,6 +59,42 @@ main .main-first .btn-main {
   color: #000000;
   font-weight: 400;
   font-size: 20px;
+}
+
+.section-contact .cel input {
+  border: none;
+  background-color: rgba(128, 128, 128, 0.336);
+  width: 100px;
+  padding: 10px;
+  border-radius: 8px;
+}
+.section-contact .cel .btn-contact {
+  border: none;
+  background-color: #D6000D;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.section-description .content-description {
+  background-color: rgba(128, 128, 128, 0.336);
+  border-radius: 8px;
+}
+.section-description .description-img {
+  height: 50px;
+  width: 50px;
+  background-color: #D6000D;
+  border-radius: 50%;
+}
+
+footer {
+  background-color: #000000;
+}
+footer .footer-code, footer .footer-socialmedia, footer .footer-contact, footer .footer-about {
+  color: white;
+}
+footer .footer-socialmedia .media {
+  color: #D6000D;
 }
 
 img {
