@@ -18,6 +18,8 @@ nav {
 }
 nav .logo h1 {
   color: #D6000D;
+  font-size: 45px;
+  font-style: italic;
 }
 nav .logo span {
   color: #000000;
@@ -25,18 +27,19 @@ nav .logo span {
 nav .nav-links a {
   color: #000000;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 500;
   margin: 0 15px;
 }
 nav .nav-links .nav-login {
   color: white;
   background-color: #D6000D;
   font-size: 18px;
-  font-weight: 400;
-  padding: 5px;
+  font-weight: 500;
+  padding: 7px;
   border: none;
   border-radius: 8px;
-  width: 100px;
+  width: 150px;
+  cursor: pointer;
 }
 
 main .main-first p {
@@ -64,7 +67,7 @@ main .main-div {
   height: 80vh;
 }
 main .main-div .main-first {
-  margin: 0 150px;
+  margin: 0 10%;
 }
 main .main-div .main-first .btn-main {
   margin: 30px 0;
