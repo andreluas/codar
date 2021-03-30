@@ -72,4 +72,20 @@
     .section-description {
         width: 100px;
     }
+
+    .section-first {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 150px 0;
+    }
+
+    .section-first-img {
+        margin: 0 !important;
+    }
+
+    .cel {
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
 }
