@@ -1,0 +1,29 @@
+@media screen and (max-width: 1506px){
+    .section-description {
+        flex-direction: column;
+        justify-content: space-around;
+        height: 400px;
+        margin: 0 0 80px 0;
+    }
+
+    .section-first {
+        margin: 50px 0;
+    }
+}
+
+@media screen and (max-width: 1186px){
+    img {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 1057px){
+    .cel {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-contact {
+        margin-top: 10px;
+    }
+}
