@@ -89,6 +89,11 @@
         align-items: center
     }
 
+    .section-description {
+        text-align: center;
+        margin: 0;
+    }
+
     footer {
         display: flex;
         flex-direction: column;
