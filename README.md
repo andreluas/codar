@@ -80,4 +80,4 @@ Criado por  <a href="https://github.com/Lorenalgm">Lorena</a> :)
 
 ---
 ## Mobile 
-![mobile](/design/solutions/mobile.png)
+![mobile](/design/solutions/mobile.pg)
